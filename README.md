@@ -1,4 +1,4 @@
-32-bit hashes version. It is fully consistent with the version in ntHash-AVX repository
+32-bit hashes version. (It can be made consistent with the version in ntHash-AVX repository if the SHIFT const is set to 33.)
 
 
 <meta charset="utf-8"/>
