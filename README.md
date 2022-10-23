@@ -1,4 +1,5 @@
-32-bit hashes version. (It can be made consistent with the version in ntHash-AVX repository if the SHIFT const is set to 33.)
+32-bit hashes version.  Fork of Luiz's implementation for my own tests. Has little practical use except to compare with the SIMD implementation. No big performance gain observed in the scalar version.
+Can be made consistent with the version in ntHash-AVX repository (by setting SHIFT to 33).
 
 
 <meta charset="utf-8"/>
