@@ -1,8 +1,8 @@
 [package]
-name = "nthash"
+name = "nthash32"
 version = "0.5.1"
 authors = ["Luiz Irber <luiz.irber@gmail.com>"]
-description = "ntHash is a rolling hash function for hashing all possible k-mers in a DNA sequence."
+description = "Forked version. ntHash is a rolling hash function for hashing all possible k-mers in a DNA sequence."
 repository = "https://github.com/luizirber/nthash"
 documentation = "https://docs.rs/nthash"
 keywords = ["bioinformatics"]
@@ -20,5 +20,5 @@ quickcheck = "^0.7.1"
 rand = "^0.5"
 
 [[bench]]
-name = "nthash"
+name = "nthash32"
 harness = false

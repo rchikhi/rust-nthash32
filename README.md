@@ -1,3 +1,6 @@
+32-bit hashes version. It is fully consistent with the version in ntHash-AVX repository
+
+
 <meta charset="utf-8"/>
 
 # nthash
