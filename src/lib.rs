@@ -151,7 +151,7 @@ impl<'a> Iterator for NtHashIterator<'a> {
                 ^ rc(seqk).rotate_left(self.k as u32 - 1);
         }
         
-        //println!(" nthash-luiz i {} fh {:#x?} rh {:#x?}",self.current_idx, self.fh,self.rh);
+        //println!(" nthash32-luiz i {} fh {:#x?} rh {:#x?}",self.current_idx, self.fh,self.rh);
 
         self.current_idx += 1;
         Some(u32::min(self.rh, self.fh))
